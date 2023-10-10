@@ -3,6 +3,8 @@ import img from "../../Assets/Images/ThirdSection/ThirdSection.jpg";
 import download from "../../Assets/Images/ThirdSection/download-icon.gif";
 import movie from "../../Assets/Images/ThirdSection/boxshot.png";
 const ThirdSection = () => {
+  
+
   return (
     <>
       <div className="flex items-center justify-evenly px-14 pt-7">

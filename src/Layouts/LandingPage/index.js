@@ -1,13 +1,14 @@
 import React from 'react'
-import NetflixHeader from '../Header'
-import NetFirstSection from '../FirstSection'
-import NetSecondSection from '../SectionSection'
-import NetThirdSection from '../ThirdSection'
-import NetFourthSection from '../FourthSection'
-import NetFifthSection from '../FifthSection'
-import NetSixthSection from '../SixthSection'
-import NetFooter from '../Footer'
+import NetflixHeader from '../../Pages/Header'
+import NetFirstSection from '../../Pages/FirstSection'
+import NetSecondSection from '../../Pages/SectionSection'
+import NetThirdSection from '../../Pages/ThirdSection'
+import NetFourthSection from '../../Pages/FourthSection'
+import NetFifthSection from '../../Pages/FifthSection'
+import NetSixthSection from '../../Pages/SixthSection'
+import NetFooter from '../../Pages/Footer'
 import './HomePage.css'
+
 const HomePage = () => {
   return (
     <>

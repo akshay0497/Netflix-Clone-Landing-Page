@@ -1,19 +1,12 @@
-import React from 'react'
-import logo from '../../Assets/Images/Header/Netflix-Logo.svg'
-import '../../Pages/LandingPage/HomePage.css'
-
+import React from "react";
+import logo from "../../Assets/Images/Header/Netflix-Logo.svg";
 
 const LogIn = () => {
   return (
-    <>
-      <div style={{backgroundImage:'url("../../Assets/Images/Body/backgroundimage.jpg")', zIndex:-1}} >
-        <div className='w-24 '>
-            <img src={logo}/>
+        <div >
+          <img src={logo} className="w-60 mx-5 h-20 p-1"/>
         </div>
-        <div></div>
-      </div>
-    </>
-  )
-}
+  );
+};
 
-export default LogIn
+export default LogIn;

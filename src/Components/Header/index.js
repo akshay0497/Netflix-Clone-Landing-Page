@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../Assets/Images/Header/Netflix-Logo.svg";
-import TranslateIcon from '@mui/icons-material/Translate';
+import TranslateIcon from "@mui/icons-material/Translate";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,10 +11,11 @@ function Header() {
       </div>
       <div className="flex items-center gap-10">
         <div className="border rounded">
-            <TranslateIcon className="text-white" style={{ padding:"2px"}}/>
+          <TranslateIcon className="text-white" style={{ padding: "2px" }} />
           <select name="languages" className="bg-transparent text-white">
             <option value="english" selected={true}>
-              <TranslateIcon/>English
+              <TranslateIcon />
+              English
             </option>
             <option value="hindi">हिंदी</option>
           </select>
@@ -21,8 +23,9 @@ function Header() {
         <div>
           <button
             className="bg-[#E50914]  w-20 rounded p-1 text-white font-[550]"
-            style={{ fontFamily: "Poppins,sans-serif" }}>
-            Sign In
+            style={{ fontFamily: "Poppins,sans-serif" }}
+          >
+            <Link to={"/in/login"}> Sign In</Link>
           </button>
         </div>
       </div>
