@@ -1,0 +1,10 @@
+
+.stylecss{
+    background-image: url(../../Assets/Images/Body/backgroundimage.jpg) !important;
+    background-size: 100vw 100vw;
+    background-repeat: no-repeat;
+    /* background-clip: border-box; */
+    background-size: cover;
+   opacity: 0.70;
+   /* background: rgba(0,0,0,0.1); */
+}

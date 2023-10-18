@@ -1,0 +1,6 @@
+.maincontents{
+    background-image: url(../../Assets/Images/Badpage/badimage.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

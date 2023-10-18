@@ -1,15 +1,14 @@
 import React from "react";
 import LanguageIcon from '@mui/icons-material/Language';
-import styles from "./loginFooter.module.css"
 
 const LoginFooterSection = () => {
   return (
-    <div className="bg-[#000000bf] text-[#757575] py-10 px-20 list-none">
+    <div className="bg-[#000000bf] text-[rgba(140,140,140,1)] py-10 px-20 list-none">
       <div className="pl-12 pr-28">
         <h1 className="pl-[70px] py-5">
-          Questions? Call
-          <span className={`hover:underline cursor-pointer ${styles.color}`}>
-            000-800-919-1694
+          Questions? Call 
+          <span className={`px-1 hover:underline cursor-pointer`}>
+             000-800-919-1694
           </span>
         </h1>
         <div className="flex items-center justify-around">

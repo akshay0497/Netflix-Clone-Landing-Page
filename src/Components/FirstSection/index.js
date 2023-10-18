@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
+import { Link } from "react-router-dom";
 
 
 const FirstSection = () => {
@@ -26,7 +27,7 @@ const FirstSection = () => {
             placeholder="Email address"
           />
           <button className="bg-[#E50914] text-white text-3xl font-semibold rounded p-2 h-fit w-fit" >
-            Get Started <ArrowForwardIosOutlinedIcon className="pb-1" />
+            <Link to={`/signup`}> Get Started</Link> <ArrowForwardIosOutlinedIcon className="pb-1" />
           </button>
         </div>
       </div>
